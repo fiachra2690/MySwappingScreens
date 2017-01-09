@@ -15,6 +15,7 @@
 		7C254D6D1E23E20F006593F0 /* MySwappingScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C254D6C1E23E20F006593F0 /* MySwappingScreensTests.swift */; };
 		7C254D781E23E20F006593F0 /* MySwappingScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C254D771E23E20F006593F0 /* MySwappingScreensUITests.swift */; };
 		7C254D861E23E518006593F0 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C254D851E23E518006593F0 /* MusicListVC.swift */; };
+		7C254D881E243F06006593F0 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C254D871E243F06006593F0 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7C254D771E23E20F006593F0 /* MySwappingScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwappingScreensUITests.swift; sourceTree = "<group>"; };
 		7C254D791E23E20F006593F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C254D851E23E518006593F0 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		7C254D871E243F06006593F0 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7C254D601E23E20F006593F0 /* LaunchScreen.storyboard */,
 				7C254D631E23E20F006593F0 /* Info.plist */,
 				7C254D851E23E518006593F0 /* MusicListVC.swift */,
+				7C254D871E243F06006593F0 /* PlaySongVC.swift */,
 			);
 			path = MySwappingScreens;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C254D861E23E518006593F0 /* MusicListVC.swift in Sources */,
+				7C254D881E243F06006593F0 /* PlaySongVC.swift in Sources */,
 				7C254D5A1E23E20F006593F0 /* LoginVC.swift in Sources */,
 				7C254D581E23E20F006593F0 /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +522,7 @@
 				7C254D7E1E23E20F006593F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C254D7F1E23E20F006593F0 /* Build configuration list for PBXNativeTarget "MySwappingScreensTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				7C254D811E23E20F006593F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C254D821E23E20F006593F0 /* Build configuration list for PBXNativeTarget "MySwappingScreensUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				7C254D841E23E20F006593F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

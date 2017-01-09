@@ -16,9 +16,25 @@ class MusicListVC: UIViewController {
         view.backgroundColor = UIColor.blue
     }
 
+    @IBAction func loadThirdScreenPrsd(_ sender: Any) {
+        let songTitle = "Born to Run"
+        performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
+    }
    
     @IBAction func BackBtnPrsd(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as?
+            PlaySongVC {
+            
+            if let song = sender as? String {
+               destination.selectedSong = song
+            }
+            
+            
+        }
     }
 
 }
